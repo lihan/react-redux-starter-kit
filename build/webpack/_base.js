@@ -14,7 +14,7 @@ const webpackConfig = {
     vendor : config.get('vendor_dependencies')
   },
   output : {
-    filename   : '[name].[hash].js',
+    filename   : '[name].js',
     path       : paths.project(config.get('dir_dist')),
     publicPath : '/'
   },
